@@ -1,0 +1,34 @@
+@startuml
+
+class PomodoroTimer {
+  - WORK_TIME: int
+  - BREAK_TIME: int
+  - remainingTime: int
+  - isRunning: boolean
+  - isWorkTime: boolean
+  - stopTimer: boolean
+  + startWork(): void
+  + startBreak(): void
+  + pause(): void
+  + nextStage(): void
+  + runTimer(): void
+  + updateDisplay(): void
+  + stopTimer(): void
+}
+
+class PomodoroUI {
+  - timer: PomodoroTimer
+  + showMenu(): void
+  + handleInput(): void
+}
+
+class Main {
+  + main(args: String[]): void
+}
+
+Main -> PomodoroUI : Uses
+Main -> PomodoroTimer : Uses
+PomodoroUI -> PomodoroTimer : Interacts
+
+@enduml
+
