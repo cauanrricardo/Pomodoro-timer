@@ -32,3 +32,7 @@ Esse projeto foi uma ótima oportunidade de **aprender** e **praticar** o uso de
 ### Contribuições 🤝
 Sinta-se à vontade para contribuir com melhorias ou sugestões! Este é um projeto em constante evolução.
 
+## Resultado Final
+![image](https://github.com/user-attachments/assets/b5bfc17b-4a7f-4acd-9a76-a9e9b8a9da8a)
+
+
