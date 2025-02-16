@@ -1,4 +1,3 @@
-
 package application;
 
 public class Main {
@@ -7,6 +6,6 @@ public class Main {
         PomodoroUI ui = new PomodoroUI(timer);
 
         ui.showMenu();
-        ui.handleInput(); 
+        ui.handleInput();
     }
 }

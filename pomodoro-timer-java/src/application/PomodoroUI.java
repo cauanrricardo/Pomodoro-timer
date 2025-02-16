@@ -5,11 +5,12 @@ import java.util.*;
 public class PomodoroUI {
     private PomodoroTimer timer;
 
-    public PomodoroUI(PomodoroTimer timer){
+    public PomodoroUI(PomodoroTimer timer) {
         this.timer = timer;
     }
-    public void showMenu(){
-        
+
+    public void showMenu() {
+
         System.out.println("=== POMODORO TIMER ===");
         System.out.println("1. Iniciar Pomodoro (25 minutos)");
         System.out.println("2. Inicar Break(5 minutos)");
@@ -18,18 +19,19 @@ public class PomodoroUI {
         System.out.println("5. Avançar para o proximo estágio");
         System.out.println("6. Sair");
         System.out.println("----------------------------------------");
-      
+
     }
-    public void handleInput(){
+
+    public void handleInput() {
         Scanner sc = new Scanner(System.in);
         boolean running = true;
 
-        while(running){
+        while (running) {
             System.out.println("Escolha uma opção:");
             int option = sc.nextInt();
             System.out.println("----------------------------------------");
 
-            switch(option){
+            switch (option) {
                 case 1:
                     timer.startWork();
                     break;
@@ -58,6 +60,4 @@ public class PomodoroUI {
         }
     }
 
-
-   
 }

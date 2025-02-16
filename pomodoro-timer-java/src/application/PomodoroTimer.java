@@ -31,8 +31,9 @@ public class PomodoroTimer {
     public void pause() {
         isRunning = false;
     }
-    public void resume(){
-        if(!isRunning){
+
+    public void resume() {
+        if (!isRunning) {
             isRunning = true;
             runTimer();
         }
@@ -49,7 +50,6 @@ public class PomodoroTimer {
     public void stopTimer() {
         stopTimer = true;
     }
-
 
     public void runTimer() {
         new Thread(() -> {
@@ -73,7 +73,6 @@ public class PomodoroTimer {
         int seconds = remainingTime % 60; // pega os seg restantes
         System.out.printf("\rTempo restante: %02d:%02d  ", minutes, seconds);
     }
-
 
     public boolean getIsRunning() {
         return isRunning;

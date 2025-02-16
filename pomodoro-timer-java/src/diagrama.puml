@@ -31,4 +31,3 @@ Main -> PomodoroTimer : Uses
 PomodoroUI -> PomodoroTimer : Interacts
 
 @enduml
-
