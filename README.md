@@ -4,8 +4,7 @@ Este é um simples **timer Pomodoro** desenvolvido em **Java**, com o objetivo d
 
 ## Diagrama de Classes
 
-![image](https://github.com/user-attachments/assets/2fba5f30-b336-4284-8c6c-d1b1fbf58a3d)
-
+![image](https://github.com/user-attachments/assets/8a1c0e5e-e177-4f76-9a39-234f4f74fbd0)
 
 ### Funcionalidades 💡
 - **Iniciar Pomodoro (25 minutos):** Começa o timer de trabalho. 
